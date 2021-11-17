@@ -64,6 +64,10 @@ body{
 .header__descr a:hover {
 	color: red;	
 }
+.header__descr a {
+	color: #000;
+}
+
 
 .header__coupon,  .sec1__wind{
 	width: 25%;
