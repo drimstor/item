@@ -12,8 +12,9 @@ let photos = [
   let zoom = document.querySelector('#zoom1');
 
   let addThumbnailClickHandler = function (thumbnail, photo) {
-	thumbnail.addEventListener('click', function () {
-	  fullPhoto.src = photo;
+	thumbnail.addEventListener('click', function (evt) {
+		evt.preventDefault();
+		fullPhoto.src = photo;
 	});
   };
   
